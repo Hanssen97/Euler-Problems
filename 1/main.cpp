@@ -1,7 +1,6 @@
 #include <iostream>
 
-
-const size_t CAP = 8000000000;
+const size_t CAP = 1000;
 
 
 size_t solution1() {
