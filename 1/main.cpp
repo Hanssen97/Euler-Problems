@@ -26,6 +26,6 @@ size_t solution2() {
 
 
 int main() {
-  std::cout << "\nsum: " << solution2() << "\n\n";
+  std::cout << "\nAnswer: " << solution2() << "\n\n";
   return 0;
 }

@@ -13,6 +13,6 @@ size_t fibonacci(size_t sum = 2, size_t prev = 1, size_t current = 2) {
 }
 
 int main() {
-  std::cout << "\nsum: " << fibonacci() << "\n\n";
+  std::cout << "\nAnswer: " << fibonacci() << "\n\n";
   return 0;
 }
