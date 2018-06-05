@@ -15,6 +15,7 @@ int main() {
           std::cout << "\nTriplet:\t" << a << "^2 + " << b << "^2 = " << c << "^2";
           std::cout << "\nSum:\t\t" << a+b+c;
           std::cout << "\nProduct:\t" << a*b*c << "\n";
+          break;
         }
       }
     }
