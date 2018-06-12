@@ -7,12 +7,13 @@ const size_t CAP = 2000000;
 
 bool isPrime(size_t number) {
   size_t threshold = sqrt(number);
-  bool   prime     = false;
 
-  for (size_t i = 3; i <= threshold; ++i)    if (number % i == 0) return false;
+  if (number % 2 == 0) return false;
+  for (size_t i = 3; i <= threshold; i += 2)  if (number % i == 0)  return false;
 
   return true;
 }
+
 
 
 int main() {
